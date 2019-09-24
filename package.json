@@ -1,11 +1,13 @@
 {
-  "name": "reacthooks",
+  "name": "react-redux-hooks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.2"
+    "react-redux": "^7.1.1",
+    "react-scripts": "3.1.2",
+    "redux": "^4.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
