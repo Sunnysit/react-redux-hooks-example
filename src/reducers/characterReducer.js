@@ -1,6 +1,4 @@
-//Reducer for character information
-
-//Initialize State
+//Reducer for character information Initialize State
 const initState = {
     name: "Sunny Xue",
     occupation: "Ninja",
@@ -10,7 +8,7 @@ const initState = {
 //Define Actions
 const counterReducer = (state = initState, action) => {
     switch (action.type) {
-        //Change character name
+            //Change character name
         case 'CHANGE_NAME':
             return {
                 ...state,

@@ -5,21 +5,25 @@ import NameCard from './views/NameCard';
 
 function App() {
 
-  return (
-    <div className="App">
-      <main className="container">
+    return (
+        <div className="App">
+            <main className="container">
 
-        <SimpleCounter />
-        <div className="divider"></div>
+                {/* Please check /views/SimpleCounter.js for detail*/}
+                <SimpleCounter/>
 
-        <NameCard />
+                <div className="divider"></div>
 
-        <div className="divider"></div>
+                {/* Please check /views/NameCard.js for detail*/}
+                <NameCard/>
 
-        <TodoList />
-        </main>
-    </div>
-  );
+                <div className="divider"></div>
+
+                {/* Please check /views/TodoList.js for detail*/}
+                <TodoList/>
+            </main>
+        </div>
+    );
 }
 
 export default App;
