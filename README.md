@@ -1,15 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Redux Hooks Example
 
-## Available Scripts
+This is a simple example to demonstrate how to use **[React Redux Hooks]([https://react-redux.js.org/next/api/hooks#hooks](https://react-redux.js.org/next/api/hooks#hooks))** in React Project. **[Hooks API](https://reactjs.org/docs/hooks-intro.html)** is a new addition in React 16.8. They allow us to use state and other features in **React Function Component**.
 
-In the project directory, you can run:
+## Redux Hooks in this example
+### useSelector()
+```javascript
+import { useSelector } from  'react-redux';
 
-### `npm start`
+const  TodoList  = () => {
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+//Get todoList from todoReducer
+const  todoList  =  useSelector(state  =>  state.todos.todoList);
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+}
+```
+### useDispatch()
+```javascript
+import { useDispatch } from  'react-redux';
 
-https://react-redux.js.org/api/hooks
+//TodoList React Component
+const  TodoList  = () => {
+
+//Use for all the dispatch actions
+const  dispatch  =  useDispatch();
+
+//Add new todo item into List with the action
+dispatch({type:'ADD_TODO',payload:newTodoObject});
+
+}
+```
+## License
+[MIT](https://github.com/microsoft/vscode-test/blob/master/LICENSE)
+
+
+
