@@ -1,6 +1,6 @@
 # React Redux Hooks Example
 
-This is a simple example to demonstrate how to use **[React Redux Hooks]([https://react-redux.js.org/next/api/hooks#hooks](https://react-redux.js.org/next/api/hooks#hooks))** in React Project. **[Hooks API](https://reactjs.org/docs/hooks-intro.html)** is a new addition in React 16.8. They allow us to use state and other features in **React Function Component**.
+This is a simple example to demonstrate how to use **[React Redux Hooks](https://react-redux.js.org/next/api/hooks#hooks)** in React Project. **[Hooks API](https://reactjs.org/docs/hooks-intro.html)** is a new addition in React 16.8. They allow us to use state and other features in **React Function Component**.
 
 ## Redux Hooks in this example
 ### useSelector()
