@@ -8,6 +8,19 @@ const initState = {
          return {...state,
                  counter:state.counter+1      
          }
+       case 'INCREMENT_COUNT_TEN':
+            return {...state,
+                    counter:state.counter+10      
+            }
+
+        case 'DOUBLE_COUNT':
+            return {...state,
+                    counter:state.counter*2      
+            }
+      case 'DECREMENT_COUNT_TEN':
+          return {...state,
+                  counter:state.counter-10      
+        }
        case 'DECREMENT_COUNT':
            return {...state,
              counter:state.counter-1      

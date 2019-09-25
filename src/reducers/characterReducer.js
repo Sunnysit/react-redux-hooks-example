@@ -2,8 +2,8 @@
 
 //Initialize State
 const initState = {
-    name: "Sunny",
-    job: "ninja",
+    name: "Sunny Xue",
+    occupation: "Ninja",
     age: 16
 }
 
@@ -17,10 +17,10 @@ const counterReducer = (state = initState, action) => {
                 name: action.payload
             }
 
-        case 'CHANGE_JOB':
+        case 'CHANGE_OCCUPATION':
             return {
                 ...state,
-                job: action.payload
+                occupation: action.payload
             }
         case 'CHANGE_AGE':
             return {
