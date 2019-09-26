@@ -6,7 +6,7 @@ const initState = {
 }
 
 //Define Actions
-const counterReducer = (state = initState, action) => {
+const characterReducer = (state = initState, action) => {
     switch (action.type) {
             //Change character name
         case 'CHANGE_NAME':
@@ -30,4 +30,4 @@ const counterReducer = (state = initState, action) => {
     }
 }
 
-export default counterReducer;
+export default characterReducer;
