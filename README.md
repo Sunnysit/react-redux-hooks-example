@@ -31,6 +31,12 @@ dispatch({type:'ADD_TODO',payload:newTodoObject});
 
 }
 ```
+
+## TypeScript
+
+You may want to see what's the different when using Redux Hooks use in TypeScript. Here is the **[TypeScript version of this example](https://github.com/Sunnysit/react-redux-hooks-example/tree/typescript)**
+
+
 ## License
 [MIT](https://github.com/microsoft/vscode-test/blob/master/LICENSE)
 
