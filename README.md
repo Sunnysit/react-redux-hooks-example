@@ -8,11 +8,14 @@ This is a simple example to demonstrate how to use **[React Redux Hooks](https:/
 ### useSelector()
 ```javascript
 import { useSelector } from  'react-redux';
+import { RootState, TodoReducerState } from '../types';
 
 const  TodoList  = () => {
 
 //Get todoList from todoReducer
-const  todoList  =  useSelector(state  =>  state.todos.todoList);
+const todoList = useSelector<RootState, TodoReducerState['todoList']>(
+    (state) => state.todos.todoList
+  );
 
 }
 ```
